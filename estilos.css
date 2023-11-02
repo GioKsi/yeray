@@ -1,0 +1,115 @@
+/* Fuente montserrat */
+.letraMonserrat
+{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Fuente league */
+.letraLeague
+{
+    font-family: 'League Spartan', sans-serif;
+}
+/* Fuente rrubik */
+.letraRubik
+{
+    font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Rubik', sans-serif;
+}
+.letraUbuntu
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Color gris */
+.colorgris
+{
+    color: #4B4B4B;
+}
+/* Estilo para la barra de navegación */
+.navbar {
+    position: relative;
+    color: #fff
+}
+
+/* Estilo para el botón personalizado */
+.btn-custom {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo para el icono dentro del botón */
+.btn-custom i {
+    font-size: 24px;
+    color: #363a3f;
+    margin-right: 10px;
+}
+
+/* Estilo para el texto dentro del botón */
+.btn-custom span {
+    font-weight: bold;
+}
+/* Estilo para los enlaces dentro de .btn-custom sin subrayado */
+.btn-link a {
+    text-decoration: none !important;
+}
+/* Restablecimiento de estilos para eliminar estilos por defecto */
+a {
+    text-decoration: none;
+}
+/* Estilo para el texto dentro del botón */
+.btn-custom span {
+    font-weight: bold;
+    color: #363a3f;
+    transition: color 0.3s;
+}
+
+/* Cambiar el color del texto cuando se coloca el mouse sobre el botón */
+.btn-custom:hover span {
+    color: #0E1E2E;
+}
+/* Estilo para el contenedor de la frase */
+.frase-container {
+    margin-top: 160px;
+}
+/* Estilo para el logotipo */
+.logo {
+    transition: transform 0.3s;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+.colorprincipal
+{
+    color: #d63b3e;
+}
+.colorprincipal2
+{
+    color: #e36f6f;
+}
+.colormorado3
+{
+    color: #702874;
+}
+.colormorado4
+{
+    color: #ad5fae;
+}
+.imagen-container
+{
+    transition: transform 0.3s;
+}
+.bio {
+    position: relative;
+    top: 50px;
+}
